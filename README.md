@@ -28,7 +28,7 @@ GBChargeDoctor 是面向 GB/T 27930 充电通信数据的诊断工具。本仓�
 ## 界面预览
 
 <div align="center">
-  <img src="assets/gbcharge-doctor-workbench.png" alt="GBChargeDoctor 软件界面截图" width="100%">
+  <img src="assets/gbcharge-doctor-frame3-zh-CN.png" alt="GBChargeDoctor 简体中文实际分析截图 - Frame3.csv" width="100%">
 </div>
 
 ## 如何使用
@@ -75,7 +75,7 @@ GBChargeDoctor 是面向 GB/T 27930 充電通訊資料的診斷工具。本儲�
 ### 介面預覽
 
 <div align="center">
-  <img src="assets/gbcharge-doctor-workbench.png" alt="GBChargeDoctor 軟體介面截圖" width="100%">
+  <img src="assets/gbcharge-doctor-frame1-zh-TW.png" alt="GBChargeDoctor 繁體中文實際分析截圖 - Frame1.asc" width="100%">
 </div>
 
 ### 如何使用
@@ -122,7 +122,7 @@ GBChargeDoctor is a diagnostic tool for GB/T 27930 charging communication data. 
 ### Interface Preview
 
 <div align="center">
-  <img src="assets/gbcharge-doctor-workbench.png" alt="GBChargeDoctor software interface screenshot" width="100%">
+  <img src="assets/gbcharge-doctor-frame2-en.png" alt="GBChargeDoctor English analysis screenshot - Frame2.asc" width="100%">
 </div>
 
 ### How to Use
