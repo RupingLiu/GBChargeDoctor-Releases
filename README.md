@@ -31,6 +31,8 @@ GBChargeDoctor 是面向 GB/T 27930 充电通信数据的诊断工具。本仓�
   <img src="assets/gbcharge-doctor-frame3-zh-CN.png" alt="GBChargeDoctor 简体中文实际分析截图 - Frame3.csv" width="100%">
 </div>
 
+示例截图使用 `Frame3.csv`，展示本地导入后自动识别 GB/T 27930-2015 并通过诊断的实际界面。
+
 ## 如何使用
 
 | 步骤 | 操作 | 说明 |
@@ -78,6 +80,8 @@ GBChargeDoctor 是面向 GB/T 27930 充電通訊資料的診斷工具。本儲�
   <img src="assets/gbcharge-doctor-frame1-zh-TW.png" alt="GBChargeDoctor 繁體中文實際分析截圖 - Frame1.asc" width="100%">
 </div>
 
+範例截圖使用 `Frame1.asc`，展示本機匯入後自動識別 GB/T 27930.2-2024 並定位握手階段缺失必要報文的實際介面。
+
 ### 如何使用
 
 | 步驟 | 操作 | 說明 |
@@ -124,6 +128,8 @@ GBChargeDoctor is a diagnostic tool for GB/T 27930 charging communication data. 
 <div align="center">
   <img src="assets/gbcharge-doctor-frame2-en.png" alt="GBChargeDoctor English analysis screenshot - Frame2.asc" width="100%">
 </div>
+
+The sample screenshot uses `Frame2.asc`, showing a local import, automatic GB/T 27930.2-2024 profile detection, and real findings for missing handshake messages.
 
 ### How to Use
 
