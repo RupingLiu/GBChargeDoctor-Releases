@@ -13,7 +13,7 @@ Windows 安装包、自动更新清单与签名文件公开分发通道。
 [![Tauri 更新](https://img.shields.io/badge/tauri-updater-24C8DB?style=for-the-badge&logo=tauri&logoColor=white)](https://github.com/RupingLiu/GBChargeDoctor-Releases/releases/latest/download/latest.json)
 [![源码状态](https://img.shields.io/badge/source-%E7%A7%81%E6%9C%89-64748B?style=for-the-badge)](#仓库定位)
 
-[![下载 Windows 安装包](https://img.shields.io/badge/%E4%B8%8B%E8%BD%BD-Windows%20%E5%AE%89%E8%A3%85%E5%8C%85-00B3FF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RupingLiu/GBChargeDoctor-Releases/releases/download/v0.5.2/GBChargeDoctor_0.5.2_x64-setup.exe)
+[![下载 Windows 安装包](https://img.shields.io/badge/%E4%B8%8B%E8%BD%BD-Windows%20%E5%AE%89%E8%A3%85%E5%8C%85-00B3FF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RupingLiu/GBChargeDoctor-Releases/releases/download/v0.5.3/GBChargeDoctor_0.5.3_x64-setup.exe)
 
 [简体中文](#简体中文) / [繁體中文](#繁體中文) / [English](#english)
 
@@ -47,10 +47,10 @@ GBChargeDoctor 是面向 GB/T 27930 充电通信数据的诊断工具。本仓�
 
 | 通道 | 文件 | 链接 |
 | --- | --- | --- |
-| 稳定版 | Windows 安装包 | [GBChargeDoctor_0.5.2_x64-setup.exe](https://github.com/RupingLiu/GBChargeDoctor-Releases/releases/download/v0.5.2/GBChargeDoctor_0.5.2_x64-setup.exe) |
-| 稳定版 | 版本发布页 | [GBChargeDoctor 0.5.2](https://github.com/RupingLiu/GBChargeDoctor-Releases/releases/tag/v0.5.2) |
-| 自动更新 | 更新清单 | [latest.json](https://github.com/RupingLiu/GBChargeDoctor-Releases/releases/download/v0.5.2/latest.json) |
-| 自动更新 | 更新签名 | [GBChargeDoctor_0.5.2_x64-setup.exe.sig](https://github.com/RupingLiu/GBChargeDoctor-Releases/releases/download/v0.5.2/GBChargeDoctor_0.5.2_x64-setup.exe.sig) |
+| 稳定版 | Windows 安装包 | [GBChargeDoctor_0.5.3_x64-setup.exe](https://github.com/RupingLiu/GBChargeDoctor-Releases/releases/download/v0.5.3/GBChargeDoctor_0.5.3_x64-setup.exe) |
+| 稳定版 | 版本发布页 | [GBChargeDoctor 0.5.3](https://github.com/RupingLiu/GBChargeDoctor-Releases/releases/tag/v0.5.3) |
+| 自动更新 | 更新清单 | [latest.json](https://github.com/RupingLiu/GBChargeDoctor-Releases/releases/download/v0.5.3/latest.json) |
+| 自动更新 | 更新签名 | [GBChargeDoctor_0.5.3_x64-setup.exe.sig](https://github.com/RupingLiu/GBChargeDoctor-Releases/releases/download/v0.5.3/GBChargeDoctor_0.5.3_x64-setup.exe.sig) |
 
 ## 安全性与离线使用
 
@@ -96,10 +96,10 @@ GBChargeDoctor 是面向 GB/T 27930 充電通訊資料的診斷工具。本儲�
 
 | 項目 | 連結 |
 | --- | --- |
-| Windows 安裝程式 | [GBChargeDoctor_0.5.2_x64-setup.exe](https://github.com/RupingLiu/GBChargeDoctor-Releases/releases/download/v0.5.2/GBChargeDoctor_0.5.2_x64-setup.exe) |
-| 版本發布頁 | [GBChargeDoctor 0.5.2](https://github.com/RupingLiu/GBChargeDoctor-Releases/releases/tag/v0.5.2) |
-| 自動更新清單 | [latest.json](https://github.com/RupingLiu/GBChargeDoctor-Releases/releases/download/v0.5.2/latest.json) |
-| Tauri 更新簽章 | [GBChargeDoctor_0.5.2_x64-setup.exe.sig](https://github.com/RupingLiu/GBChargeDoctor-Releases/releases/download/v0.5.2/GBChargeDoctor_0.5.2_x64-setup.exe.sig) |
+| Windows 安裝程式 | [GBChargeDoctor_0.5.3_x64-setup.exe](https://github.com/RupingLiu/GBChargeDoctor-Releases/releases/download/v0.5.3/GBChargeDoctor_0.5.3_x64-setup.exe) |
+| 版本發布頁 | [GBChargeDoctor 0.5.3](https://github.com/RupingLiu/GBChargeDoctor-Releases/releases/tag/v0.5.3) |
+| 自動更新清單 | [latest.json](https://github.com/RupingLiu/GBChargeDoctor-Releases/releases/download/v0.5.3/latest.json) |
+| Tauri 更新簽章 | [GBChargeDoctor_0.5.3_x64-setup.exe.sig](https://github.com/RupingLiu/GBChargeDoctor-Releases/releases/download/v0.5.3/GBChargeDoctor_0.5.3_x64-setup.exe.sig) |
 
 ### 安全性與離線使用
 
@@ -145,10 +145,10 @@ The sample screenshot uses `Frame2.asc`, showing a local import, automatic GB/T 
 
 | Item | Link |
 | --- | --- |
-| Windows installer | [GBChargeDoctor_0.5.2_x64-setup.exe](https://github.com/RupingLiu/GBChargeDoctor-Releases/releases/download/v0.5.2/GBChargeDoctor_0.5.2_x64-setup.exe) |
-| Release page | [GBChargeDoctor 0.5.2](https://github.com/RupingLiu/GBChargeDoctor-Releases/releases/tag/v0.5.2) |
-| Updater metadata | [latest.json](https://github.com/RupingLiu/GBChargeDoctor-Releases/releases/download/v0.5.2/latest.json) |
-| Tauri update signature | [GBChargeDoctor_0.5.2_x64-setup.exe.sig](https://github.com/RupingLiu/GBChargeDoctor-Releases/releases/download/v0.5.2/GBChargeDoctor_0.5.2_x64-setup.exe.sig) |
+| Windows installer | [GBChargeDoctor_0.5.3_x64-setup.exe](https://github.com/RupingLiu/GBChargeDoctor-Releases/releases/download/v0.5.3/GBChargeDoctor_0.5.3_x64-setup.exe) |
+| Release page | [GBChargeDoctor 0.5.3](https://github.com/RupingLiu/GBChargeDoctor-Releases/releases/tag/v0.5.3) |
+| Updater metadata | [latest.json](https://github.com/RupingLiu/GBChargeDoctor-Releases/releases/download/v0.5.3/latest.json) |
+| Tauri update signature | [GBChargeDoctor_0.5.3_x64-setup.exe.sig](https://github.com/RupingLiu/GBChargeDoctor-Releases/releases/download/v0.5.3/GBChargeDoctor_0.5.3_x64-setup.exe.sig) |
 
 ### Security and Offline Use
 
