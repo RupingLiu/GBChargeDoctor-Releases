@@ -1,19 +1,19 @@
 <div align="center">
 
-# GBChargeDoctor Releases
+# GBChargeDoctor 发布下载
 
-**Protocol-grade diagnostics for GB/T charging traces**
+**面向 GB/T 充电通信轨迹的协议级诊断工具**
 
-GB/T 27930 charging communication analysis, packaged for secure Windows distribution.
+Windows 安装包、自动更新清单与签名文件公开分发通道。
 
-[![Latest Release](https://img.shields.io/github/v/release/RupingLiu/GBChargeDoctor-Releases?label=release&color=00B3FF&style=for-the-badge)](https://github.com/RupingLiu/GBChargeDoctor-Releases/releases/latest)
-[![Platform](https://img.shields.io/badge/platform-Windows-0F172A?style=for-the-badge&logo=windows11&logoColor=white)](https://github.com/RupingLiu/GBChargeDoctor-Releases/releases/latest)
-[![Offline Core](https://img.shields.io/badge/core-offline%20analysis-10B981?style=for-the-badge)](#security--offline-use)
-[![Local Data](https://img.shields.io/badge/data-local%20files%20only-22C55E?style=for-the-badge)](#security--offline-use)
-[![Updater](https://img.shields.io/badge/tauri-updater-24C8DB?style=for-the-badge&logo=tauri&logoColor=white)](https://github.com/RupingLiu/GBChargeDoctor-Releases/releases/latest/download/latest.json)
-[![Source](https://img.shields.io/badge/source-private-64748B?style=for-the-badge)](#repository-scope)
+[![最新版本](https://img.shields.io/github/v/release/RupingLiu/GBChargeDoctor-Releases?label=release&color=00B3FF&style=for-the-badge)](https://github.com/RupingLiu/GBChargeDoctor-Releases/releases/latest)
+[![平台](https://img.shields.io/badge/platform-Windows-0F172A?style=for-the-badge&logo=windows11&logoColor=white)](https://github.com/RupingLiu/GBChargeDoctor-Releases/releases/latest)
+[![离线核心](https://img.shields.io/badge/core-%E7%A6%BB%E7%BA%BF%E5%88%86%E6%9E%90-10B981?style=for-the-badge)](#安全性与离线使用)
+[![本地数据](https://img.shields.io/badge/data-%E6%9C%AC%E5%9C%B0%E6%96%87%E4%BB%B6-22C55E?style=for-the-badge)](#安全性与离线使用)
+[![Tauri 更新](https://img.shields.io/badge/tauri-updater-24C8DB?style=for-the-badge&logo=tauri&logoColor=white)](https://github.com/RupingLiu/GBChargeDoctor-Releases/releases/latest/download/latest.json)
+[![源码状态](https://img.shields.io/badge/source-%E7%A7%81%E6%9C%89-64748B?style=for-the-badge)](#仓库定位)
 
-[![Download for Windows](https://img.shields.io/badge/Download-Windows%20Installer-00B3FF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RupingLiu/GBChargeDoctor-Releases/releases/download/v0.5.2/GBChargeDoctor_0.5.2_x64-setup.exe)
+[![下载 Windows 安装包](https://img.shields.io/badge/%E4%B8%8B%E8%BD%BD-Windows%20%E5%AE%89%E8%A3%85%E5%8C%85-00B3FF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RupingLiu/GBChargeDoctor-Releases/releases/download/v0.5.2/GBChargeDoctor_0.5.2_x64-setup.exe)
 
 [简体中文](#简体中文) / [繁體中文](#繁體中文) / [English](#english)
 
@@ -21,47 +21,20 @@ GB/T 27930 charging communication analysis, packaged for secure Windows distribu
 
 ---
 
-## Release Channel
-
-| Channel | Artifact | Link |
-| --- | --- | --- |
-| Stable | Windows installer | [GBChargeDoctor_0.5.2_x64-setup.exe](https://github.com/RupingLiu/GBChargeDoctor-Releases/releases/download/v0.5.2/GBChargeDoctor_0.5.2_x64-setup.exe) |
-| Stable | Release notes | [GBChargeDoctor 0.5.2](https://github.com/RupingLiu/GBChargeDoctor-Releases/releases/tag/v0.5.2) |
-| Updater | Metadata | [latest.json](https://github.com/RupingLiu/GBChargeDoctor-Releases/releases/download/v0.5.2/latest.json) |
-| Updater | Signature | [GBChargeDoctor_0.5.2_x64-setup.exe.sig](https://github.com/RupingLiu/GBChargeDoctor-Releases/releases/download/v0.5.2/GBChargeDoctor_0.5.2_x64-setup.exe.sig) |
-
-## Security & Offline Use
-
-GBChargeDoctor is distributed as an installer while the product source code remains private. The application is intended for local diagnostic workflows: importing traces, analyzing protocol behavior, and generating reports on the user's machine.
-
-| Area | Security posture |
-| --- | --- |
-| Offline diagnostics | Core trace import, protocol analysis, and report generation are designed to run locally without a cloud service. |
-| Local trace data | CAN/charging trace files are opened from the user's machine and are not uploaded by the application for analysis. |
-| Network boundary | Internet access is only needed for optional update checks and downloading new releases from GitHub Releases. |
-| Update integrity | Tauri updater metadata and update signatures are published with each release artifact. |
-| Distribution trust | Download installers only from this repository or an official channel provided by the publisher. |
-
-## Repository Scope
-
-This repository is the public binary distribution channel for GBChargeDoctor. It hosts installer files, update metadata, and update signatures only. The product source code is maintained in a private repository.
-
----
-
 ## 简体中文
 
 GBChargeDoctor 是面向 GB/T 27930 充电通信数据的诊断工具。本仓库用于公开发布 Windows 安装包、自动更新清单和更新签名，便于用户下载安装与版本更新。
 
-### 快速下载
+## 发布通道
 
-| 项目 | 链接 |
-| --- | --- |
-| Windows 安装包 | [GBChargeDoctor_0.5.2_x64-setup.exe](https://github.com/RupingLiu/GBChargeDoctor-Releases/releases/download/v0.5.2/GBChargeDoctor_0.5.2_x64-setup.exe) |
-| 版本发布页 | [GBChargeDoctor 0.5.2](https://github.com/RupingLiu/GBChargeDoctor-Releases/releases/tag/v0.5.2) |
-| 自动更新清单 | [latest.json](https://github.com/RupingLiu/GBChargeDoctor-Releases/releases/download/v0.5.2/latest.json) |
-| Tauri 更新签名 | [GBChargeDoctor_0.5.2_x64-setup.exe.sig](https://github.com/RupingLiu/GBChargeDoctor-Releases/releases/download/v0.5.2/GBChargeDoctor_0.5.2_x64-setup.exe.sig) |
+| 通道 | 文件 | 链接 |
+| --- | --- | --- |
+| 稳定版 | Windows 安装包 | [GBChargeDoctor_0.5.2_x64-setup.exe](https://github.com/RupingLiu/GBChargeDoctor-Releases/releases/download/v0.5.2/GBChargeDoctor_0.5.2_x64-setup.exe) |
+| 稳定版 | 版本发布页 | [GBChargeDoctor 0.5.2](https://github.com/RupingLiu/GBChargeDoctor-Releases/releases/tag/v0.5.2) |
+| 自动更新 | 更新清单 | [latest.json](https://github.com/RupingLiu/GBChargeDoctor-Releases/releases/download/v0.5.2/latest.json) |
+| 自动更新 | 更新签名 | [GBChargeDoctor_0.5.2_x64-setup.exe.sig](https://github.com/RupingLiu/GBChargeDoctor-Releases/releases/download/v0.5.2/GBChargeDoctor_0.5.2_x64-setup.exe.sig) |
 
-### 安全性与离线使用
+## 安全性与离线使用
 
 本仓库只提供安装包，不公开源码。GBChargeDoctor 的核心诊断流程面向本地使用：用户在自己的电脑上导入充电通信/CAN 轨迹文件，软件在本机完成协议解析、规则分析和报告生成。
 
@@ -73,9 +46,9 @@ GBChargeDoctor 是面向 GB/T 27930 充电通信数据的诊断工具。本仓�
 | 更新校验 | 每个发布版本会提供 Tauri 更新清单和更新签名，用于自动更新流程校验。 |
 | 下载来源 | 建议只从本仓库或发布方提供的官方渠道下载安装包。 |
 
-### 说明
+## 仓库定位
 
-本仓库只作为公开分发通道，不包含源码，也不授予源码使用权。GBChargeDoctor 的源码仓库保持私有。
+本仓库只作为 GBChargeDoctor 的公开二进制分发通道，托管安装包、更新清单和更新签名。产品源码仓库保持私有，本仓库不包含源码，也不授予源码使用权。
 
 ---
 
