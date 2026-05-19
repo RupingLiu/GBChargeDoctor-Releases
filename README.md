@@ -25,6 +25,22 @@ Windows 安装包、自动更新清单与签名文件公开分发通道。
 
 GBChargeDoctor 是面向 GB/T 27930 充电通信数据的诊断工具。本仓库用于公开发布 Windows 安装包、自动更新清单和更新签名，便于用户下载安装与版本更新。
 
+## 界面预览
+
+<div align="center">
+  <img src="assets/gbcharge-doctor-workbench.png" alt="GBChargeDoctor 软件界面截图" width="100%">
+</div>
+
+## 如何使用
+
+| 步骤 | 操作 | 说明 |
+| --- | --- | --- |
+| 1 | 下载安装 | 从本页下载 Windows 安装包并完成安装。 |
+| 2 | 导入轨迹 | 点击右上角“导入”，选择本地 CSV、TXT、ASC、BLF 或 SocketCAN PCAP 轨迹文件。 |
+| 3 | 选择协议 | 默认使用“自动识别”；也可以手动选择 GB/T 27930-2015、GB/T 27930-2023 或 GB/T 27930.2-2024。 |
+| 4 | 查看诊断 | 导入后软件会自动完成分析，并展示结论、问题列表、阶段信息和证据帧。 |
+| 5 | 生成报告 | 点击“报告”，在本机生成分析报告预览，用于存档、沟通或测试记录。 |
+
 ## 发布通道
 
 | 通道 | 文件 | 链接 |
@@ -48,13 +64,29 @@ GBChargeDoctor 是面向 GB/T 27930 充电通信数据的诊断工具。本仓�
 
 ## 仓库定位
 
-本仓库只作为 GBChargeDoctor 的公开二进制分发通道，托管安装包、更新清单和更新签名。产品源码仓库保持私有，本仓库不包含源码，也不授予源码使用权。
+本仓库只作为 GBChargeDoctor 的公开二进制分发通道，托管安装包、更新清单、更新签名和产品截图。产品源码仓库保持私有，本仓库不包含源码，也不授予源码使用权。
 
 ---
 
 ## 繁體中文
 
 GBChargeDoctor 是面向 GB/T 27930 充電通訊資料的診斷工具。本儲存庫用於公開發布 Windows 安裝程式、自動更新清單與更新簽章，方便使用者下載安裝與版本更新。
+
+### 介面預覽
+
+<div align="center">
+  <img src="assets/gbcharge-doctor-workbench.png" alt="GBChargeDoctor 軟體介面截圖" width="100%">
+</div>
+
+### 如何使用
+
+| 步驟 | 操作 | 說明 |
+| --- | --- | --- |
+| 1 | 下載安裝 | 從本頁下載 Windows 安裝程式並完成安裝。 |
+| 2 | 匯入軌跡 | 點擊右上角「導入」，選擇本機 CSV、TXT、ASC、BLF 或 SocketCAN PCAP 軌跡檔案。 |
+| 3 | 選擇協議 | 預設使用「自動識別」；也可以手動選擇 GB/T 27930-2015、GB/T 27930-2023 或 GB/T 27930.2-2024。 |
+| 4 | 查看診斷 | 匯入後軟體會自動完成分析，並顯示結論、問題列表、階段資訊與證據幀。 |
+| 5 | 產生報告 | 點擊「報告」，在本機產生分析報告預覽，用於存檔、溝通或測試記錄。 |
 
 ### 快速下載
 
@@ -86,6 +118,22 @@ GBChargeDoctor 是面向 GB/T 27930 充電通訊資料的診斷工具。本儲�
 ## English
 
 GBChargeDoctor is a diagnostic tool for GB/T 27930 charging communication data. This repository publicly publishes the Windows installer, updater metadata, and update signature so users can install and receive version updates.
+
+### Interface Preview
+
+<div align="center">
+  <img src="assets/gbcharge-doctor-workbench.png" alt="GBChargeDoctor software interface screenshot" width="100%">
+</div>
+
+### How to Use
+
+| Step | Action | Description |
+| --- | --- | --- |
+| 1 | Install | Download the Windows installer from this page and complete installation. |
+| 2 | Import trace | Click "导入" in the upper-right corner and select a local CSV, TXT, ASC, BLF, or SocketCAN PCAP trace file. |
+| 3 | Choose protocol | Keep Auto Detect by default, or manually select GB/T 27930-2015, GB/T 27930-2023, or GB/T 27930.2-2024. |
+| 4 | Review diagnostics | After import, the application analyzes automatically and shows the verdict, findings, phase information, and evidence frames. |
+| 5 | Generate report | Click "报告" to generate a local report preview for archiving, communication, or test records. |
 
 ### Quick Download
 
