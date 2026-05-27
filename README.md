@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/gbcharge-doctor-workbench.png" alt="GBChargeDoctor" width="96">
+<img src="assets/gbcharge-doctor-logo.png" alt="GBChargeDoctor logo" width="96">
 
 # GBChargeDoctor
 
