@@ -15,7 +15,7 @@
 
 [![打开 Release 下载页](https://img.shields.io/badge/Download-Open_Release_Page-0ea5e9?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RupingLiu/GBChargeDoctor-Releases/releases/latest)
 
-[下载最新版](https://github.com/RupingLiu/GBChargeDoctor-Releases/releases/latest) · [查看更新说明](https://github.com/RupingLiu/GBChargeDoctor-Releases/releases/latest)
+[下载最新版](https://github.com/RupingLiu/GBChargeDoctor-Releases/releases/latest) · [查看更新说明](https://github.com/RupingLiu/GBChargeDoctor-Releases/releases)
 
 </div>
 
